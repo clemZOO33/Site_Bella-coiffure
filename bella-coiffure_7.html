@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bella Coiffure – Coiffeuse à domicile à Braud-et-Saint-Louis (33)</title>
+<meta name="description" content="Bella Coiffure, coiffeuse à domicile à Braud-et-Saint-Louis en Gironde. Coupe, couleur, brushing et coiffure événementielle pour toute la famille. Devis gratuit, appelez maintenant.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Balisage local SEO : à compléter avec le vrai numéro de téléphone -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Bella Coiffure",
+  "image": "",
+  "telephone": "+33620614293",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1 Parc de Cochet",
+    "postalCode": "33820",
+    "addressLocality": "Braud-et-Saint-Louis",
+    "addressCountry": "FR"
+  },
+  "areaServed": ["Braud-et-Saint-Louis", "Blaye", "Saint-Ciers-sur-Gironde", "Étauliers", "Anglade"],
+  "taxID": "81497014100010"
+}
+</script>
+
+<style>
+  :root {
+    --color-bg: #FAF6F1;
+    --color-surface: #FFFFFF;
+    --color-surface-alt: #F1E7DE;
+    --color-text: #3B2A2C;
+    --color-text-muted: #7A6660;
+    --color-accent: #B97D6B;
+    --color-accent-dark: #8C5A4C;
+    --color-gold: #B4915A;
+    --color-line: #E4D5C8;
+
+    --font-display: "Fraunces", Georgia, serif;
+    --font-body: "Work Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+    --radius-arch: 200px 200px 0 0;
+    --max-width: 1100px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    color: var(--color-text);
+    line-height: 1.15;
+    margin: 0 0 0.5em 0;
+  }
+
+  h1 { font-size: clamp(2.1rem, 5vw, 3.2rem); }
+  h2 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
+  h3 { font-size: 1.15rem; }
+
+  p { margin: 0 0 1em 0; color: var(--color-text-muted); max-width: 62ch; }
+
+  a { color: var(--color-accent-dark); }
+
+  img, svg { max-width: 100%; display: block; }
+
+  .container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .section { padding: 88px 0; }
+  .section-alt { background: var(--color-surface-alt); }
+
+  .section-intro { margin-bottom: 40px; }
+  .eyebrow-line {
+    width: 40px;
+    height: 2px;
+    background: var(--color-gold);
+    margin-bottom: 18px;
+    border: none;
+  }
+
+  /* ---------- Buttons ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.98rem;
+    padding: 14px 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .btn:focus-visible {
+    outline: 3px solid var(--color-gold);
+    outline-offset: 2px;
+  }
+  .btn-primary {
+    background: var(--color-accent-dark);
+    color: #FFF7F2;
+  }
+  .btn-primary:hover { background: #74463B; }
+
+  .btn-outline {
+    background: transparent;
+    border-color: var(--color-accent-dark);
+    color: var(--color-accent-dark);
+  }
+  .btn-outline:hover { background: rgba(140, 90, 76, 0.08); }
+
+  .btn-whatsapp {
+    background: #3F7A5A;
+    color: #FFFFFF;
+  }
+  .btn-whatsapp:hover { background: #345F47; }
+
+  /* ---------- Header ---------- */
+  header.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(250, 246, 241, 0.94);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--color-line);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+  .logo {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--color-accent-dark);
+    text-decoration: none;
+  }
+  nav.main-nav { display: flex; align-items: center; gap: 28px; }
+  nav.main-nav a.nav-link {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  nav.main-nav a.nav-link:hover { color: var(--color-accent-dark); }
+
+  .nav-toggle { display: none; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    padding: 64px 0 80px;
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 56px;
+    align-items: center;
+  }
+  .hero-photo {
+    aspect-ratio: 4 / 5;
+    background: #0D0C0C;
+    border-radius: var(--radius-arch);
+    border: 1px solid var(--color-line);
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(59, 42, 44, 0.16);
+  }
+  .hero-photo svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .hero-trust {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid var(--color-line);
+  }
+  .hero-trust span {
+    font-size: 0.92rem;
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .hero-trust span::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--color-gold);
+    flex-shrink: 0;
+  }
+  .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
+
+  /* ---------- Services ---------- */
+  .price-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+  }
+  .price-table caption {
+    text-align: left;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    padding: 16px 20px;
+    background: var(--color-surface-alt);
+    border-bottom: 1px solid var(--color-line);
+  }
+  .price-table td {
+    padding: 15px 20px;
+    border-top: 1px solid var(--color-line);
+    color: var(--color-text);
+  }
+  .price-table td:last-child {
+    text-align: right;
+    color: var(--color-accent-dark);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .price-tables-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .price-note {
+    margin-top: 24px;
+    font-size: 0.92rem;
+  }
+
+  /* ---------- About ---------- */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .values-list {
+    list-style: none;
+    margin: 24px 0 0 0;
+    padding: 0;
+    display: grid;
+    gap: 14px;
+  }
+  .values-list li {
+    padding-left: 22px;
+    position: relative;
+    color: var(--color-text);
+    font-size: 0.98rem;
+  }
+  .values-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 7px;
+    height: 7px;
+    background: var(--color-accent);
+    border-radius: 50%;
+  }
+
+  /* ---------- Reviews ---------- */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .review-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-arch) / 60px 60px 0 0;
+    padding: 40px 26px 28px;
+    text-align: center;
+  }
+  .review-card p.quote {
+    color: var(--color-text);
+    font-style: italic;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    max-width: none;
+  }
+  .review-author {
+    font-size: 0.88rem;
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+
+  /* ---------- Contact ---------- */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .contact-block { margin-bottom: 28px; }
+  .contact-block h3 { margin-bottom: 6px; }
+  .contact-block a { text-decoration: none; font-weight: 600; }
+
+  form.booking-form {
+    display: grid;
+    gap: 16px;
+  }
+  .booking-form label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .booking-form input,
+  .booking-form textarea {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 0.98rem;
+    padding: 12px 14px;
+    border: 1.5px solid var(--color-line);
+    border-radius: 6px;
+    background: var(--color-surface);
+    color: var(--color-text);
+  }
+  .booking-form input:focus,
+  .booking-form textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+  }
+  .map-embed {
+    margin-top: 24px;
+    border: 1px solid var(--color-line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .map-embed iframe { width: 100%; height: 260px; border: 0; display: block; }
+
+  /* ---------- Sticky bottom call bar (mobile) ---------- */
+  .sticky-call-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 60;
+    background: var(--color-accent-dark);
+    display: none;
+  }
+  .sticky-call-bar a {
+    display: block;
+    text-align: center;
+    color: #FFF7F2;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  /* ---------- Footer ---------- */
+  footer.site-footer {
+    background: #2E2022;
+    color: #D8C9C4;
+    padding: 48px 0 28px;
+    font-size: 0.88rem;
+  }
+  footer.site-footer a { color: #EFD9CE; }
+  .footer-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    margin-bottom: 20px;
+  }
+  .footer-logo {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #F3E6DF;
+  }
+
+  /* ---------- Reduced motion ---------- */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition: none !important; }
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px) {
+    .hero-grid,
+    .about-grid,
+    .contact-grid { grid-template-columns: 1fr; }
+    .hero-grid { gap: 40px; }
+    .hero-photo { order: -1; aspect-ratio: 16 / 10; }
+    .price-tables-grid { grid-template-columns: 1fr; }
+    .reviews-grid { grid-template-columns: 1fr; }
+    nav.main-nav { display: none; }
+    .header-inner { padding: 14px 20px; }
+    .section { padding: 64px 0; }
+    .sticky-call-bar { display: block; }
+    body { padding-bottom: 54px; } /* room for sticky bar */
+  }
+
+  @media (max-width: 480px) {
+    .container { padding: 0 18px; }
+    .review-card { padding: 32px 20px 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#accueil" class="logo">Bella Coiffure</a>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a class="nav-link" href="#services">Services &amp; tarifs</a>
+      <a class="nav-link" href="#apropos">À propos</a>
+      <a class="nav-link" href="#avis">Avis</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="btn btn-primary" href="tel:+33620614293">Appeler maintenant</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. ACCUEIL -->
+  <section id="accueil" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Une coiffeuse qui vient chez vous, avec tout son savoir-faire</h1>
+        <p>
+          Bella Coiffure est un service de coiffure à domicile basé à
+          Braud-et-Saint-Louis, pour toute la famille&nbsp;: coupe, couleur,
+          brushing et coiffures d'exception, sans quitter votre maison.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="tel:+33620614293">Appeler maintenant</a>
+          <a class="btn btn-outline" href="#services">Voir les tarifs</a>
+        </div>
+        <div class="hero-trust">
+          <span>Coiffure à domicile</span>
+          <span>Matériel professionnel</span>
+          <span>Devis gratuit</span>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <svg viewBox="0 0 320 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroArtTitle">
+          <title id="heroArtTitle">Bella Coiffure, coiffeuse à domicile</title>
+          <defs>
+            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#F3D48A"/>
+              <stop offset="45%" stop-color="#C99A45"/>
+              <stop offset="100%" stop-color="#8A6423"/>
+            </linearGradient>
+            <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#0E7A85"/>
+              <stop offset="100%" stop-color="#12A7B5"/>
+            </linearGradient>
+            <clipPath id="canvasClip">
+              <rect x="0" y="0" width="320" height="400" rx="0"/>
+            </clipPath>
+          </defs>
+
+          <g clip-path="url(#canvasClip)">
+            <rect x="0" y="0" width="320" height="400" fill="#0D0C0C"/>
+
+            <!-- Teal diagonal field, bottom-right -->
+            <path d="M 320,400 L 320,150 C 250,205 215,250 178,296 C 145,336 118,368 92,400 Z" fill="url(#tealGrad)"/>
+            <path d="M 320,400 L 320,150 C 250,205 215,250 178,296 C 145,336 118,368 92,400 Z" fill="#0A5860" opacity="0.18"/>
+
+            <!-- faint decorative rings on the teal field -->
+            <g stroke="#0A5860" stroke-width="1.4" fill="none" opacity="0.35">
+              <circle cx="255" cy="235" r="20"/>
+              <circle cx="290" cy="320" r="26"/>
+              <circle cx="230" cy="345" r="14"/>
+            </g>
+
+            <!-- Gold ribbon swirls -->
+            <path d="M 99.35,340.52 L 99.78,340.76 L 100.20,341.04 L 100.61,341.37 L 100.99,341.73 L 101.35,342.13 L 101.69,342.56 L 101.99,343.03 L 102.27,343.53 L 102.51,344.06 L 102.71,344.61 L 102.87,345.20 L 102.98,345.80 L 103.05,346.42 L 103.08,347.06 L 103.05,347.71 L 102.97,348.37 L 102.83,349.03 L 102.65,349.69 L 102.41,350.34 L 102.11,350.99 L 101.76,351.62 L 101.35,352.23 L 100.89,352.82 L 100.38,353.38 L 99.82,353.91 L 99.21,354.40 L 98.55,354.85 L 97.85,355.26 L 97.11,355.61 L 96.33,355.92 L 95.51,356.16 L 94.67,356.35 L 93.80,356.47 L 92.91,356.53 L 92.01,356.52 L 91.09,356.44 L 90.17,356.28 L 89.25,356.06 L 88.34,355.76 L 87.44,355.38 L 86.56,354.93 L 85.70,354.41 L 84.88,353.82 L 84.09,353.15 L 83.34,352.42 L 82.64,351.62 L 81.99,350.76 L 81.40,349.83 L 80.88,348.86 L 80.42,347.83 L 80.04,346.75 L 79.74,345.63 L 79.52,344.48 L 79.39,343.30 L 79.35,342.10 L 79.40,340.88 L 79.54,339.65 L 79.78,338.41 L 80.11,337.19 L 80.55,335.97 L 81.08,334.78 L 81.71,333.61 L 82.43,332.48 L 83.25,331.40 L 84.16,330.36 L 85.16,329.39 L 86.24,328.48 L 87.41,327.64 L 88.65,326.89 L 89.96,326.22 L 91.33,325.65 L 92.76,325.17 L 94.24,324.80 L 95.77,324.54 L 97.33,324.40 L 98.92,324.37 L 100.52,324.46 L 102.13,324.68 L 103.75,325.02 L 105.35,325.49 L 106.93,326.08 L 108.48,326.80 L 109.99,327.65 L 111.45,328.62 L 112.86,329.71 L 114.19,330.92 L 115.44,332.24 L 116.60,333.66 L 117.67,335.20 L 118.63,336.82 L 119.47,338.54 L 120.20,340.33 L 120.79,342.20 L 121.24,344.13 L 121.56,346.11 L 121.72,348.14 L 121.73,350.19 L 121.59,352.27 L 121.28,354.35 L 120.82,356.43 L 120.19,358.50 L 119.40,360.53 L 118.45,362.53 L 117.34,364.46 L 116.07,366.34 L 114.64,368.13 L 113.07,369.83 L 111.35,371.43 L 109.49,372.91 L 107.51,374.27 L 105.41,375.48 L 103.19,376.55 L 100.87,377.45 L 98.46,378.19 L 95.98,378.76 L 93.43,379.14 L 90.83,379.33 L 88.19,379.32 L 85.52,379.11 L 82.85,378.70 L 80.19,378.08 L 77.54,377.26 L 74.94,376.22 L 72.39,374.98 L 69.92,373.54 L 67.53,371.89 L 65.24,370.05 L 63.08,368.02 L 61.05,365.81 L 59.17,363.42 L 57.45,360.87 L 55.91,358.16 L 54.57,355.31 L 53.42,352.34 L 52.50,349.26 L 51.80,346.07 L 51.33,342.80 L 51.11,339.47 L 51.14,336.10 L 51.42,332.69 L 51.97,329.28 L 52.77,325.88 L 53.85,322.51 L 55.19,319.19 L 56.79,315.94 L 58.65,312.79 L 60.77,309.74 L 63.14,306.84 L 65.75,304.08 L 68.59,301.50 L 71.66,299.11 L 74.93,296.94 L 78.39,294.99 L 82.04,293.28 L 85.84,291.84 L 89.79,290.68 L 93.86,289.80 L 98.04,289.22 L 102.29,288.96 L 106.61,289.01 L 110.96,289.39 L 115.31,290.11 L 119.65,291.16 L 123.96,292.55 L 128.19,294.28 L 132.33,296.34 L 136.35,298.74 L 140.23,301.46 L 143.93,304.50 L 147.44,307.85 L 150.72,311.50 L 153.76,315.42 L 156.52,319.61 L 159.00,324.05 L 161.16,328.71 L 162.98,333.58 L 164.46,338.64 L 165.56,343.84 L 166.28,349.18 L 166.60,354.63 L 166.51,360.14 L 166.00,365.70 L 165.07,371.27 L 163.71,376.81 L 161.91,382.31 L 159.69,387.72 L 157.03,393.00 L 153.95,398.14 L 150.45,403.09 L 146.54,407.81 L 142.25,412.29 L 137.57,416.48 L 132.53,420.35 L 127.16,423.87 L 121.47,427.02 L 115.49,429.77 L 109.25,432.09 L 102.77,433.96 L 96.10,435.35 L 89.26,436.26 L 82.29,436.65 L 75.22,436.51 L 68.10,435.85 L 60.97,434.63 L 53.87,432.87 L 46.83,430.55 L 39.91,427.67 L 33.14,424.25 L 26.56,420.28 L 20.23,415.78 L 14.18,410.75 L 8.46,405.22 L 3.10,399.21 L -1.85,392.74 L -6.36,385.83 L -10.38,378.52 L -13.89,370.84 L -16.85,362.82 L -19.23,354.50 L -21.00,345.92 L 11.00,345.67 L 12.53,351.86 L 14.48,357.83 L 16.84,363.55 L 19.58,368.99 L 22.68,374.13 L 26.10,378.96 L 29.83,383.45 L 33.81,387.58 L 38.04,391.34 L 42.46,394.73 L 47.06,397.73 L 51.80,400.33 L 56.65,402.54 L 61.58,404.35 L 66.55,405.77 L 71.54,406.79 L 76.52,407.42 L 81.46,407.68 L 86.32,407.56 L 91.09,407.09 L 95.75,406.27 L 100.25,405.12 L 104.60,403.66 L 108.75,401.90 L 112.71,399.87 L 116.44,397.58 L 119.93,395.05 L 123.18,392.32 L 126.17,389.39 L 128.88,386.29 L 131.32,383.05 L 133.47,379.68 L 135.34,376.22 L 136.92,372.68 L 138.20,369.09 L 139.20,365.47 L 139.91,361.83 L 140.34,358.22 L 140.49,354.63 L 140.38,351.10 L 140.01,347.64 L 139.39,344.27 L 138.53,341.01 L 137.44,337.87 L 136.14,334.87 L 134.65,332.02 L 132.97,329.33 L 131.12,326.82 L 129.12,324.49 L 126.98,322.34 L 124.72,320.40 L 122.37,318.66 L 119.92,317.12 L 117.41,315.79 L 114.84,314.68 L 112.24,313.77 L 109.62,313.07 L 107.00,312.58 L 104.39,312.29 L 101.80,312.20 L 99.26,312.30 L 96.77,312.59 L 94.34,313.06 L 92.00,313.70 L 89.75,314.50 L 87.59,315.45 L 85.55,316.54 L 83.63,317.77 L 81.83,319.11 L 80.16,320.56 L 78.64,322.11 L 77.25,323.74 L 76.01,325.44 L 74.92,327.21 L 73.99,329.02 L 73.20,330.86 L 72.56,332.73 L 72.07,334.62 L 71.74,336.50 L 71.54,338.38 L 71.49,340.23 L 71.58,342.05 L 71.80,343.83 L 72.14,345.57 L 72.61,347.24 L 73.20,348.85 L 73.89,350.39 L 74.68,351.84 L 75.56,353.21 L 76.53,354.49 L 77.58,355.68 L 78.69,356.76 L 79.86,357.75 L 81.08,358.62 L 82.35,359.40 L 83.65,360.06 L 84.97,360.62 L 86.31,361.06 L 87.65,361.40 L 89.00,361.64 L 90.34,361.77 L 91.66,361.80 L 92.96,361.74 L 94.24,361.57 L 95.47,361.32 L 96.67,360.98 L 97.82,360.56 L 98.91,360.07 L 99.95,359.50 L 100.93,358.86 L 101.84,358.17 L 102.68,357.42 L 103.46,356.62 L 104.16,355.79 L 104.78,354.91 L 105.34,354.01 L 105.81,353.08 L 106.21,352.13 L 106.53,351.18 L 106.77,350.21 L 106.94,349.25 L 107.04,348.29 L 107.06,347.34 L 107.01,346.41 L 106.90,345.50 L 106.72,344.61 L 106.48,343.75 L 106.18,342.93 L 105.83,342.14 L 105.42,341.39 L 104.97,340.69 L 104.47,340.03 L 103.94,339.42 L 103.37,338.86 L 102.77,338.35 L 102.14,337.89 L 101.49,337.49 L 100.82,337.14 L 100.14,336.85 L 99.45,336.61 L 98.75,336.43 L 98.06,336.30 L 97.36,336.22 L 96.67,336.20 L 95.99,336.22 L 95.33,336.30 L 94.68,336.42 L 94.05,336.58 L 93.44,336.79 L 92.86,337.04 L 92.31,337.33 L 91.79,337.66 L 91.30,338.01 L 90.84,338.40 L 90.42,338.81 L 90.03,339.25 L 89.68,339.70 L 89.37,340.18 L 89.11,340.67 L 88.88,341.17 L 88.68,341.68 L 88.53,342.20 L 88.42,342.72 L 88.35,343.24 L 88.32,343.76 L 88.32,344.27 L 88.37,344.78 L 88.44,345.27 L 88.56,345.75 L 88.70,346.22 L 88.88,346.67 L 89.08,347.10 L 89.32,347.51 L 89.58,347.90 L 89.87,348.27 L 90.17,348.61 L 90.50,348.92 L 90.85,349.20 L 91.21,349.46 L 91.59,349.69 L 91.98,349.88 L 92.38,350.05 L 92.78,350.19 L 93.19,350.29 L 93.60,350.37 L 94.02,350.42 L 94.43,350.43 L 94.84,350.42 L 95.25,350.37 L 95.64,350.30 L 96.03,350.20 L 96.41,350.07 L 96.77,349.92 L 97.12,349.74 L 97.46,349.54 L 97.77,349.32 L 98.07,349.08 L 98.35,348.81 L 98.61,348.53 L 98.84,348.24 L 99.05,347.92 L 99.24,347.60 L 99.40,347.27 L 99.54,346.92 L 99.66,346.57 L 99.74,346.21 L 99.80,345.85 L 99.84,345.49 L 99.84,345.12 L 99.83,344.76 L 99.78,344.40 L 99.71,344.04 L 99.62,343.70 L 99.50,343.36 L 99.35,343.03 L 99.19,342.71 L 99.00,342.41 L 98.79,342.12 L 98.56,341.85 L 98.31,341.59 Z" fill="url(#goldGrad)"/>
+            <path d="M 223.89,307.05 L 224.13,307.11 L 224.38,307.19 L 224.62,307.28 L 224.86,307.40 L 225.10,307.54 L 225.34,307.69 L 225.56,307.87 L 225.78,308.06 L 225.99,308.28 L 226.19,308.51 L 226.37,308.76 L 226.54,309.03 L 226.69,309.32 L 226.83,309.62 L 226.95,309.93 L 227.04,310.27 L 227.12,310.61 L 227.17,310.96 L 227.20,311.33 L 227.20,311.70 L 227.18,312.08 L 227.13,312.46 L 227.05,312.85 L 226.94,313.23 L 226.81,313.62 L 226.65,314.00 L 226.45,314.37 L 226.23,314.74 L 225.98,315.10 L 225.71,315.45 L 225.40,315.78 L 225.07,316.10 L 224.70,316.40 L 224.32,316.68 L 223.91,316.94 L 223.47,317.17 L 223.01,317.37 L 222.54,317.55 L 222.04,317.69 L 221.52,317.81 L 221.00,317.89 L 220.45,317.94 L 219.90,317.95 L 219.34,317.92 L 218.78,317.85 L 218.21,317.75 L 217.64,317.60 L 217.07,317.41 L 216.51,317.18 L 215.95,316.91 L 215.41,316.60 L 214.88,316.25 L 214.37,315.86 L 213.87,315.43 L 213.40,314.96 L 212.96,314.45 L 212.54,313.90 L 212.16,313.32 L 211.81,312.71 L 211.50,312.07 L 211.23,311.39 L 211.00,310.69 L 210.81,309.96 L 210.67,309.22 L 210.58,308.45 L 210.54,307.67 L 210.55,306.88 L 210.62,306.08 L 210.74,305.27 L 210.92,304.46 L 211.15,303.65 L 211.44,302.85 L 211.79,302.06 L 212.19,301.28 L 212.65,300.52 L 213.17,299.78 L 213.75,299.07 L 214.38,298.39 L 215.06,297.74 L 215.79,297.13 L 216.58,296.56 L 217.41,296.04 L 218.29,295.57 L 219.20,295.15 L 220.16,294.79 L 221.15,294.48 L 222.18,294.24 L 223.23,294.07 L 224.31,293.97 L 225.40,293.93 L 226.51,293.97 L 227.63,294.08 L 228.76,294.27 L 229.89,294.54 L 231.01,294.89 L 232.12,295.31 L 233.22,295.82 L 234.29,296.40 L 235.34,297.06 L 236.36,297.80 L 237.34,298.62 L 238.27,299.51 L 239.16,300.47 L 239.99,301.51 L 240.76,302.61 L 241.47,303.77 L 242.11,305.00 L 242.67,306.28 L 243.16,307.62 L 243.56,309.00 L 243.87,310.43 L 244.09,311.89 L 244.22,313.38 L 244.25,314.90 L 244.18,316.44 L 244.00,317.99 L 243.72,319.55 L 243.33,321.10 L 242.83,322.65 L 242.23,324.18 L 241.51,325.69 L 240.69,327.17 L 239.76,328.61 L 238.72,330.01 L 237.57,331.35 L 236.33,332.63 L 234.98,333.84 L 233.54,334.98 L 232.01,336.03 L 230.39,336.99 L 228.69,337.86 L 226.91,338.62 L 225.05,339.27 L 223.14,339.81 L 221.17,340.22 L 219.14,340.51 L 217.08,340.67 L 214.98,340.69 L 212.85,340.57 L 210.71,340.31 L 208.56,339.90 L 206.42,339.35 L 204.28,338.65 L 202.17,337.79 L 200.09,336.79 L 198.06,335.63 L 196.08,334.33 L 194.16,332.88 L 192.32,331.29 L 190.56,329.55 L 188.90,327.68 L 187.34,325.68 L 185.90,323.55 L 184.58,321.30 L 183.40,318.93 L 182.36,316.46 L 181.48,313.90 L 180.75,311.24 L 180.20,308.50 L 179.81,305.70 L 179.62,302.84 L 179.61,299.93 L 179.79,296.99 L 180.17,294.03 L 180.75,291.06 L 181.54,288.09 L 182.53,285.14 L 183.73,282.22 L 185.14,279.35 L 186.75,276.54 L 188.58,273.80 L 190.60,271.16 L 192.83,268.61 L 195.25,266.19 L 197.86,263.90 L 200.65,261.75 L 203.62,259.77 L 206.75,257.96 L 210.04,256.33 L 213.48,254.91 L 217.05,253.70 L 220.75,252.71 L 224.55,251.96 L 228.45,251.45 L 232.43,251.19 L 236.47,251.20 L 240.56,251.47 L 244.68,252.03 L 248.81,252.86 L 252.93,253.97 L 244.23,269.73 L 241.20,269.07 L 238.18,268.62 L 235.20,268.38 L 232.25,268.33 L 229.36,268.48 L 226.54,268.81 L 223.79,269.32 L 221.12,269.99 L 218.56,270.83 L 216.09,271.81 L 213.74,272.94 L 211.51,274.20 L 209.40,275.58 L 207.43,277.06 L 205.58,278.65 L 203.88,280.33 L 202.32,282.08 L 200.90,283.90 L 199.63,285.78 L 198.51,287.70 L 197.53,289.66 L 196.70,291.64 L 196.02,293.64 L 195.48,295.64 L 195.07,297.64 L 194.81,299.62 L 194.68,301.58 L 194.68,303.51 L 194.81,305.41 L 195.05,307.25 L 195.41,309.05 L 195.88,310.78 L 196.46,312.46 L 197.13,314.06 L 197.89,315.58 L 198.73,317.03 L 199.65,318.39 L 200.64,319.66 L 201.70,320.84 L 202.81,321.94 L 203.96,322.93 L 205.16,323.84 L 206.40,324.64 L 207.66,325.36 L 208.94,325.97 L 210.24,326.49 L 211.54,326.91 L 212.84,327.24 L 214.14,327.48 L 215.43,327.64 L 216.70,327.70 L 217.95,327.68 L 219.18,327.58 L 220.37,327.40 L 221.53,327.15 L 222.64,326.83 L 223.72,326.44 L 224.74,325.99 L 225.72,325.49 L 226.64,324.93 L 227.51,324.32 L 228.32,323.67 L 229.07,322.98 L 229.76,322.26 L 230.39,321.50 L 230.96,320.73 L 231.47,319.92 L 231.91,319.11 L 232.30,318.28 L 232.62,317.44 L 232.88,316.61 L 233.08,315.77 L 233.22,314.93 L 233.30,314.11 L 233.33,313.29 L 233.31,312.49 L 233.24,311.71 L 233.11,310.95 L 232.94,310.21 L 232.73,309.50 L 232.47,308.82 L 232.18,308.17 L 231.85,307.55 L 231.49,306.97 L 231.09,306.42 L 230.67,305.91 L 230.23,305.43 L 229.76,305.00 L 229.28,304.60 L 228.78,304.24 L 228.27,303.92 L 227.74,303.65 L 227.21,303.41 L 226.68,303.21 L 226.15,303.05 L 225.61,302.92 L 225.08,302.84 L 224.55,302.79 L 224.04,302.77 L 223.53,302.79 L 223.03,302.84 L 222.55,302.92 L 222.08,303.03 L 221.63,303.17 L 221.19,303.33 L 220.78,303.52 L 220.39,303.73 L 220.01,303.96 L 219.66,304.21 L 219.34,304.48 L 219.03,304.76 L 218.76,305.06 L 218.50,305.37 L 218.27,305.68 L 218.07,306.01 L 217.89,306.34 L 217.73,306.68 L 217.60,307.02 L 217.50,307.36 L 217.41,307.71 L 217.35,308.05 L 217.32,308.38 L 217.30,308.72 L 217.31,309.05 L 217.34,309.37 L 217.38,309.68 L 217.45,309.99 L 217.53,310.28 L 217.63,310.56 L 217.75,310.84 L 217.88,311.10 L 218.03,311.34 L 218.18,311.58 L 218.35,311.80 L 218.53,312.00 L 218.72,312.19 L 218.92,312.36 L 219.13,312.52 L 219.34,312.67 L 219.56,312.79 L 219.78,312.91 L 220.00,313.00 L 220.23,313.09 L 220.46,313.15 L 220.68,313.20 L 220.91,313.24 L 221.14,313.26 L 221.36,313.27 L 221.59,313.26 L 221.80,313.24 L 222.02,313.21 L 222.22,313.16 L 222.43,313.10 L 222.62,313.03 L 222.81,312.95 L 222.99,312.86 L 223.17,312.76 L 223.33,312.65 L 223.49,312.53 L 223.63,312.40 L 223.77,312.27 L 223.90,312.13 L 224.02,311.98 L 224.13,311.83 L 224.22,311.67 L 224.31,311.51 L 224.38,311.34 L 224.45,311.18 L 224.50,311.00 L 224.55,310.83 L 224.58,310.66 L 224.60,310.48 L 224.61,310.31 L 224.61,310.14 L 224.60,309.97 L 224.58,309.80 L 224.55,309.63 L 224.51,309.46 L 224.46,309.30 L 224.40,309.14 L 224.33,308.99 L 224.25,308.84 L 224.17,308.70 L 224.07,308.57 L 223.97,308.44 L 223.86,308.31 L 223.74,308.20 L 223.62,308.09 L 223.49,307.99 L 223.35,307.90 Z" fill="url(#goldGrad)"/>
+
+            <!-- Business name -->
+            <text x="160" y="86" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="600" font-size="40" fill="#E7B95B">Bella Coiffure</text>
+            <text x="160" y="118" text-anchor="middle" font-family="'Work Sans', sans-serif" font-weight="500" font-size="15" letter-spacing="1.5" fill="#12A7B5">COIFFEUSE A DOMICILE</text>
+          </g>
+
+          <rect x="0.5" y="0.5" width="319" height="399" fill="none" stroke="#3B2A2C" stroke-opacity="0.25" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SERVICES & TARIFS -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <div class="section-intro">
+        <hr class="eyebrow-line">
+        <h2>Services &amp; tarifs</h2>
+        <p>Des prestations pensées pour votre confort, avec des tarifs annoncés à l'avance.</p>
+      </div>
+
+      <div class="price-tables-grid">
+        <table class="price-table">
+          <caption>Femme</caption>
+          <tbody>
+            <tr><td>Coupe + brushing</td><td>dès 35&nbsp;€</td></tr>
+            <tr><td>Coloration</td><td>dès 55&nbsp;€</td></tr>
+            <tr><td>Mèches / balayage</td><td>dès 70&nbsp;€</td></tr>
+            <tr><td>Chignon / coiffure de soirée</td><td>dès 45&nbsp;€</td></tr>
+          </tbody>
+        </table>
+
+        <table class="price-table">
+          <caption>Homme &amp; enfant</caption>
+          <tbody>
+            <tr><td>Coupe homme</td><td>dès 20&nbsp;€</td></tr>
+            <tr><td>Coupe + barbe</td><td>dès 28&nbsp;€</td></tr>
+            <tr><td>Coupe enfant (- 12 ans)</td><td>dès 15&nbsp;€</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="price-note">
+        Un supplément déplacement peut s'appliquer selon la distance.
+        Devis gratuit par téléphone au <a href="tel:+33620614293">06 20 61 42 93</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. À PROPOS -->
+  <section id="apropos" class="section">
+    <div class="container about-grid">
+      <div>
+        <hr class="eyebrow-line">
+        <h2>À propos de Bella Coiffure</h2>
+        <p>
+          Coiffeuse indépendante installée à Braud-et-Saint-Louis, je mets mon
+          expérience et ma passion du métier au service de votre bien-être.
+          Chaque rendez-vous est pensé pour vous&nbsp;: une écoute attentive,
+          du matériel professionnel et une prestation soignée, réalisée dans
+          le calme de votre maison.
+        </p>
+        <p>
+          Je me déplace à Braud-et-Saint-Louis et dans les communes voisines
+          de l'Estuaire de la Gironde (Blaye, Saint-Ciers-sur-Gironde,
+          Étauliers, Anglade...) pour les coupes, couleurs, brushings et
+          coiffures d'événement, pour toute la famille.
+        </p>
+      </div>
+      <div>
+        <h3>Mes valeurs</h3>
+        <ul class="values-list">
+          <li>Écoute et bienveillance à chaque rendez-vous</li>
+          <li>Hygiène rigoureuse et matériel professionnel</li>
+          <li>Ponctualité et respect de votre temps</li>
+          <li>Prix transparents, annoncés avant la prestation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. AVIS CLIENTS -->
+  <section id="avis" class="section section-alt">
+    <div class="container">
+      <div class="section-intro">
+        <hr class="eyebrow-line">
+        <h2>Ce qu'en disent mes client(e)s</h2>
+        <p>Quelques retours de client(e)s reçu(e)s à domicile.</p>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card">
+          <p class="quote">« Un vrai moment de détente, à la maison, avec un résultat impeccable. Je recommande ! »</p>
+          <p class="review-author">Sophie — Braud-et-Saint-Louis</p>
+        </article>
+        <article class="review-card">
+          <p class="quote">« Ponctuelle, professionnelle et de bon conseil. Ma nouvelle coiffeuse ! »</p>
+          <p class="review-author">Marc — Blaye</p>
+        </article>
+        <article class="review-card">
+          <p class="quote">« Le plaisir du salon sans les contraintes de déplacement. Parfait pour toute la famille. »</p>
+          <p class="review-author">Nathalie — Saint-Ciers-sur-Gironde</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div>
+        <hr class="eyebrow-line">
+        <h2>Prendre rendez-vous</h2>
+        <p>Le plus simple&nbsp;: appelez-moi directement. Vous pouvez aussi m'écrire par WhatsApp ou via le formulaire.</p>
+
+        <div class="contact-block">
+          <h3>Téléphone</h3>
+          <a href="tel:+33620614293">06 20 61 42 93</a>
+        </div>
+
+        <div class="contact-block">
+          <h3>WhatsApp</h3>
+          <a class="btn btn-whatsapp" href="https://wa.me/33620614293" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+        </div>
+
+        <div class="contact-block">
+          <h3>Adresse</h3>
+          <p>1 Parc de Cochet, 33820 Braud-et-Saint-Louis</p>
+        </div>
+
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps?q=1+Parc+de+Cochet,+33820+Braud-et-Saint-Louis&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localisation de Bella Coiffure">
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <!-- Formulaire fonctionnel : les demandes arrivent par email via formsubmit.co -->
+        <form class="booking-form" action="https://formsubmit.co/clement.sermadiras@gmail.com" method="post">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_subject" value="Nouvelle demande de rendez-vous — Bella Coiffure">
+          <div>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="Nom" required>
+          </div>
+          <div>
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="Téléphone" required>
+          </div>
+          <div>
+            <label for="message">Votre demande (prestation souhaitée, date...)</label>
+            <textarea id="message" name="Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="sticky-call-bar">
+  <a href="tel:+33620614293">Appeler maintenant</a>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Bella Coiffure</div>
+        <p style="color:#C7B5AF; margin-top:8px;">Coiffure à domicile — Braud-et-Saint-Louis (33)</p>
+      </div>
+      <div>
+        <p style="color:#C7B5AF;">
+          Artisan, entrepreneur individuel<br>
+          SIRET : 814 970 141 00010<br>
+          1 Parc de Cochet, 33820 Braud-et-Saint-Louis
+        </p>
+      </div>
+    </div>
+    <p style="color:#B29E97; margin:0;">© 2026 Bella Coiffure. Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>
